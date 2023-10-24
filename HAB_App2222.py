@@ -23,8 +23,6 @@ df = load_data()
 
 
 
-
-
 # Step 1: Data Preprocessing
 # Select the features and target variable
 selected_features = ['secchi', 'do_mg_l_s', 'temp_s', 'sal_ppt_s', 'turb_s', 'N/P']
