@@ -14,7 +14,7 @@ import base64
 
 # Load your dataset or replace this with your data loading code
 # Assuming your data is in a DataFrame called 'df'
-file_path = 'Datafile_Ml_1.csv'
+file_path = 'Datafile_ML_1.csv'
 df = pd.read_csv(file_path)
 
 # Step 1: Data Preprocessing
