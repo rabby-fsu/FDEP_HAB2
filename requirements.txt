@@ -1,8 +1,5 @@
-streamlit
-pandas
 numpy
-pickle
-matplotlib
-sklearn
-RandomForestRegressor
-train_test_split
+pandas
+scikit-learn
+joblib
+streamlit
