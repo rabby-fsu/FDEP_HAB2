@@ -9,13 +9,21 @@ import pickle
 
 import base64 
 
+# Specify the URL to the raw CSV file in your Git repository
+csv_url = 'https://raw.githubusercontent.com/YourUsername/YourRepository/main/Datafile_ML_1.csv'
+
+# Use Streamlit to read and display the CSV data
+@st.cache
+def load_data():
+    df = pd.read_csv(csv_url)
+    return df
+
+# Load the data using the function
+df = load_data()
 
 
 
-# Load your dataset or replace this with your data loading code
-# Assuming your data is in a DataFrame called 'df'
-file_path = 'Datafile_ML_1.csv'
-df = pd.read_csv(file_path)
+
 
 # Step 1: Data Preprocessing
 # Select the features and target variable
